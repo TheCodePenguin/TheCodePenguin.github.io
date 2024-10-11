@@ -95,5 +95,12 @@ the desktop nav will disappear*/
     .text-container{
         text-align: justify;
     }
+    .about-pic{
+        width: 78%;
+        height: auto;
+        top: auto;
+        right: auto;
+
+    }
 }
 

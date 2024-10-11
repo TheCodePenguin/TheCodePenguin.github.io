@@ -247,6 +247,12 @@ a, .btn{
 }
 .about-pic{
    border-radius: 2rem;
+   width: 800px;
+   height: 700px;
+   position: relative;
+   top: -130px;
+   right: 80px;
+   
 }
 .arrow{
    position: absolute;
