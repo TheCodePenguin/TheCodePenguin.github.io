@@ -48,7 +48,7 @@ the desktop nav will disappear*/
     }
  
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:850px){
     #contanct,footer{
         height: 40vh;
         
@@ -75,6 +75,7 @@ the desktop nav will disappear*/
     .about-containers, .contact-info-upper-container, .btn-container{
         flex-wrap: wrap;
     }
+
     
     .contact-info-container{
         margin: 0.5rem;
@@ -98,6 +99,7 @@ the desktop nav will disappear*/
         width: auto;
         height: 46vh;
         justify-content: center;
+        height: auto;
     }
     .section__text__p2{
         font-size: 1.25rem;
