@@ -138,6 +138,7 @@ a, .btn{
  }
  .section-container{
    display: flex;
+   margin: auto auto;
  } 
 
  /* PROFILE SECTION */
@@ -260,13 +261,17 @@ a, .btn{
    bottom: 2.5rem;
 }
 .details-container{
-   padding: 1.5rem;
+   padding: 2rem;
    flex: 1;
    background: white;
    border-radius: 2rem;
-   border: rgb(27, 27, 27) 0.1rem solid;
+   border: 1px solid #a3a3a3;
    border-color: rgb(163,163,163);
+   box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
    text-align: center;
+   align-items: center;
+   
+
 }
 .section-container{
    gap: 4rem;
@@ -298,18 +303,23 @@ a, .btn{
    text-align: initial;
    flex-wrap: wrap;
    flex-direction: row;
-   gap: 2.5rem;
+   gap: 2rem;
    justify-content: space-around;
+   
 }
 article{
+ 
    display: flex;
    width: 10rem;
-   justify-content: space-around;
+   justify-content: flex-start;
    gap: 0.5rem;
+   align-items: center; 
 
 }
-article.icon{
+article .icon{
    cursor: default;
+   height: 2rem;
+
 }
 
 /* PROJCTS SECTION */
