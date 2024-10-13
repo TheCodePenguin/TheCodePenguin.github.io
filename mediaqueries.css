@@ -48,7 +48,7 @@ the desktop nav will disappear*/
     }
  
 }
-@media screen and (max-width:850px){
+@media screen and (max-width:750px){
     #contanct,footer{
         height: 40vh;
         
@@ -96,10 +96,9 @@ the desktop nav will disappear*/
         text-align: center;
     }
     .section__pic-container{
-        width: auto;
+        width: 90%;
         height: 46vh;
         justify-content: center;
-        height: auto;
     }
     .section__text__p2{
         font-size: 1.25rem;
