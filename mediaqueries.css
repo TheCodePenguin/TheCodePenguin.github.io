@@ -48,7 +48,81 @@ the desktop nav will disappear*/
     }
  
 }
-@media screen and (max-width:750px){
+@media screen and (max-width:550px){
+    #contanct,footer{
+        height: 40vh;
+        
+    }
+    #contact{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 70vh;
+        
+            
+    }
+    #profile{
+        height: 83vh;
+        margin-bottom:0 ;
+    }
+    article{
+        font-size: 1rem;
+    }
+    footer nav{
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+    .about-containers, .contact-info-upper-container, .btn-container{
+        flex-wrap: wrap;
+    }
+
+    
+    .contact-info-container{
+        margin: 0.5rem;
+
+    }a
+    .contact-info-container p, .nav-links li a{
+        font-size: 1rem;
+    }
+    .exprience-sub-title{
+        font-size: 1.25rem;
+    }
+    .logo{
+        font-size: 1.5rem;
+    }
+    .nav-links{
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+    .section__pic-container{
+        width: 90%;
+        height: 40vh;
+        justify-content: center;
+    }
+    .section__text__p2{
+        font-size: 1.25rem;
+    }
+    .title{
+        font-size: 2rem;
+    }
+    .text-container{
+        text-align: justify;
+    }
+    .about-pic{
+        width: 78%;
+        height: auto;
+        top: auto;
+        right: auto;
+        margin: auto auto;
+
+    }
+    .about-details-container p{
+        font-size:smaller ;
+    }
+
+}
+@media screen and (min-width:900px){
     #contanct,footer{
         height: 40vh;
         
@@ -110,8 +184,8 @@ the desktop nav will disappear*/
         text-align: justify;
     }
     .about-pic{
-        width: 78%;
-        height: auto;
+        width: 30rem;
+        height: 40rem;
         top: auto;
         right: auto;
         margin: auto auto;

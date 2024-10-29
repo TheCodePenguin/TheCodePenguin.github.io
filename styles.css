@@ -57,6 +57,7 @@ a, .btn{
     cursor: default;
  }
 
+
  /* HAMBURGER MENU */
 
  #hamburger-nav{
@@ -274,7 +275,7 @@ a, .btn{
 
 }
 .section-container{
-   gap: 4rem;
+   gap: 7rem;
    height: 80%;
 }
 .section__pic-container{
